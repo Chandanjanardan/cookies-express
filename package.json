@@ -1,5 +1,5 @@
 {
-  "name": "cookies",
+  "name": "sessions",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3"
   }
 }
